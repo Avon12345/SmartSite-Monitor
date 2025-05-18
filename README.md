@@ -4,13 +4,15 @@
 
 Problem Statement
 
-Remote or temporary industrial sites (construction, offshore prep, etc.) often lack persistent environmental monitoring. Commercial solutions are expensive, power-hungry, or not fit for ad-hoc deployment. This project aims to build a modular, low-cost, battery-powered sensor system to track environmental conditions and send data over Wi-Fi.
+Remote or temporary industrial sites (construction, offshore prep, etc.) often lack persistent environmental monitoring. Existing solutions are expensive, power-hungry, or not fit for ad-hoc deployment. This project builds a modular, low-cost, battery-powered sensor system to track environmental conditions and send data over Wi-Fi.
 
 Objectives
 
 Build a battery powered enviromental sensing device using ESP32 WROVER
 Collect temperature, humidity and vibration data via I2C/SPI Sensors.
 Transmit readings via MQTT over Wi-Fi to a central dashboard
+Modular C++ firmware with sensor abstraction
+Logging and fault detection (e.g. retry loops, Wi-Fi fallback)
 Optimise for low power consumption using deep sleep and wake-on timer.
 Move from breadboard to custom PCB.
 Document design process and decisions for technical review.
