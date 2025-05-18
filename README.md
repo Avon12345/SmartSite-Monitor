@@ -17,15 +17,6 @@ Optimise for low power consumption using deep sleep and wake-on timer.
 Move from breadboard to custom PCB.
 Document design process and decisions for technical review.
 
-Hardware Components    Purpose
-
-ESP32-WROVER           MCU with Wi-Fi extra RAM
-BME280                 Temp, humidity, pressure
-ADXL345                MPU6050
-18650 Battery + TP3056 Power source and charging
-SD Card Module         Local data backup
-Custom PCB             Final Hardware Layout
-
 Firmware Structure
 
 Modular C++ Design using sensor driver classes
